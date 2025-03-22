@@ -19,8 +19,8 @@ int main()
     }
     Student mn;
     // Student mx;
-    mn.marks=INT_MAX;
-    //mx.marks=INT_MIN;
+    mn.marks=INT_MAX; //for minimum
+    //mx.marks=INT_MIN; //for maximum
     for(int i=0;i<n;i++)
     {
         if(a[i].marks<mn.marks)
